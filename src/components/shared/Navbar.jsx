@@ -13,9 +13,10 @@ const Navbar = ({ handleScroll, offerRef, videoRef,  howitworksRef }) => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a className="text-lg" to='/'>Home</a></li>
-                        <li><a className="text-lg" onClick={() => handleScroll(videoRef)}>Video</a></li>
+                        {/* <li><a className="text-lg" onClick={() => handleScroll(videoRef)}>Video</a></li> */}
                         {/* <li><a className="text-lg" onClick={() => handleScroll(aboutRef)}>About Me</a></li> */}
                         <li><a className="text-lg" onClick={() => handleScroll(howitworksRef)}>How It Works</a></li>
+                        {/* <li><Link to='https://zahare-wilson.ck.page/posts/hi-guys' className="text-lg" >Free Training</Link></li> */}
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-2xl">MotionWise</a>
@@ -23,9 +24,10 @@ const Navbar = ({ handleScroll, offerRef, videoRef,  howitworksRef }) => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><Link className="text-lg px-3 py-2" to='/'>Home</Link></li>
-                    <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(videoRef)}>Video</a></li>
+                    {/* <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(videoRef)}>Video</a></li> */}
                     {/* <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(aboutRef)}>About Me</a></li> */}
                     <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(howitworksRef)}>How It Works</a></li>
+                    {/* <li><Link to='https://zahare-wilson.ck.page/posts/hi-guys' className="text-lg" >Free Training</Link></li> */}
                 </ul>
             </div>
             <div className="navbar-end">

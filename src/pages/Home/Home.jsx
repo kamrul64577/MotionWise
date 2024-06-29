@@ -6,10 +6,10 @@ import { useOutletContext } from 'react-router-dom';
 // import AboutMe from './AboutMe';
 import Testimonial from './Testimonial';
 import TimelineSection from '../TimelineSection/TimelineSection';
-import Footer from '../../components/shared/Footer'
+import Footer from '../../components/shared/Footer';
 
 const Home = () => {
-    const { offerRef, videoRef, aboutRef, howitworksRef} = useOutletContext();
+    const { offerRef, videoRef, aboutRef, howitworksRef } = useOutletContext();
     return (
         <div>
             <div ref={offerRef}>
@@ -18,6 +18,7 @@ const Home = () => {
             <div ref={videoRef}>
                 <Video />
             </div>
+
             {/* <div ref={aboutRef}>
                 <AboutMe />
             </div> */}
@@ -28,9 +29,10 @@ const Home = () => {
                 <TimelineSection />
             </div>
             <div>
-                <Footer/>
+                <Footer />
             </div>
-          
+
+
         </div>
     );
 };
