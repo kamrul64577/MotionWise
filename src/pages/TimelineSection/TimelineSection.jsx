@@ -5,38 +5,35 @@ const TimelineSection = () => {
   const steps = [
     {
       number: 1,
-      title: 'Get on Camera',
-      description: (
-        <>
-          We will produce <span style={{ color: 'Orange' }}>high volumes</span> of <span style={{ color: 'Orange' }}>organic content</span>  on
-          <span style={{ color: 'Orange' }}> various</span>   social media platforms, which will contain an <span style={{ color: 'Orange' }}>abundance of value </span>
-          for your target audience. This will help you construct a strong brand & generate <span style={{ color: 'Orange' }}>compounding returns over the long run.</span>
-        </>
-      ),
+      title: 'Build Your Brand ',
+      description: 
+        "We will produce high volume, organic content on multiple social media platforms. This will contain extreme value & help you build a strong brand which produces compounding returns over the long run.",
+      
 
       icon: '📸',
     },
     {
       number: 2,
-      title: 'We Edit The Videos',
+      title: 'Expand Your Reach',
       description:
-        "We will fully setup, manage & track email campaigns, send high volume, personalised emails to qualified high ticket prospects & set appointments. We provide a variety of scripts, including A/Z split testing to ensure the highest rates of conversion & book more appointments",
+       "We will fully setup, manage & track email campaigns, we’ll send lots of personalised emails to your desired prospects and schedule appointments. Our service includes Numerous scripts & A/Z split testing to increase conversion rates & book more calls.",
+      icon: '📩',
+    },
+    {
+      number: 3,
+      title: 'Turn Clicks Into Clients ',
+      description:
+        "We will create high - converting landing pages with compelling copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates.",
       icon: '🎥',
     },
     {
-      number: 3,
-      title: 'Share Your Videos',
+      number: 4,
+      title: 'On Top of That ',
       description:
-        "We will construct high - converting landing pages with compelling, creative copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates. Tracking metrics is also included.",
-      icon: '',
+        "We will guide you on how to create effective lead magnets & email flows to help generate more conversions easier and produce more revenue.",
+      icon: '🎥',
     },
-    {
-      number: 3,
-      title: 'Share Your Videos',
-      description:
-        "We will construct high - converting landing pages with compelling, creative copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates. Tracking metrics is also included.",
-      icon: '',
-    },
+    
 
     // Add more steps as needed
   ];
@@ -47,7 +44,7 @@ const TimelineSection = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/3 pr-12">
-              <h3 className="text-6xl font-bold mb-2">Here's How It Works</h3>
+              <h3 className="text-6xl font-bold mb-2">Here's What We Do</h3>
             </div>
             <div className="md:w-2/3 mt-12 pl-0 md:pl-48 p-4">
               {steps.map((step, index) => (
