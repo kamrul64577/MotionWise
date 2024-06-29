@@ -56,7 +56,7 @@ const TimelineSection = () => {
                     icon={step.icon}
                   />
                   {index !== steps.length - 1 && (
-                    <div className="border-b border-gray-300 my-8 " />
+                    <div className="border-b border-gray-600 my-8 " />
                   )}
                 </div>
               ))}
