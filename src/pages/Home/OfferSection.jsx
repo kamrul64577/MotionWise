@@ -5,7 +5,7 @@ const OfferSection = () => {
   return (
     <div className="flex flex-col items-center bg-custom-gradient text-white p-8 md:p-16">
       <div className="text-left md:text-center max-w-4xl">
-        <h1 className="text-3xl md:text-4xl  mb-16 mt-6">
+        <h1 className="text-3xl md:text-4xl  mb-16 mt-6 text-transform: capitalize">
         We guarantee 10-30+ new qualified calls every month or we work for free until you get that, & (you don't pay)
         </h1>
         <p className="text-xl md:text-2xl mb-8">
