@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const OfferSection = () => {
   return (
-    <div className="flex flex-col items-center bg-custom-gradient-b  text-white p-8 md:p-16">
+    <div className="flex flex-col items-center bg-custom-gradient text-white p-8 md:p-16">
       <div className="text-left md:text-center max-w-5xl">
         <h1 className="text-3xl md:text-4xl  mb-4 mt-6 text-transform: capitalize">
         We <span style={{ color: '#4e85de' }} className='underline'>guarantee</span> 10-30+ new qualified calls every month or we work for free until you get that, &  
