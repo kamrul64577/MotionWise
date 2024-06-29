@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const OfferSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-custom-gradient text-white p-8 md:p-16">
+    <div className="flex flex-col items-center  min-h-screen bg-custom-gradient text-white p-8 md:p-16">
       <div className="text-center max-w-4xl">
-        <h1 className="text-2xl md:text-4xl font-bold mb-6">
+        <h1 className="text-2xl md:text-4xl font-bold mb-20 mt-6">
           We will book you (10-30)+ qualified appointments within 35 days. <span className='text-lime-200'> Or else you don’t pay & we will work</span> with you until we do.
         </h1>
         <p className="text-xl md:text-2xl mb-8">

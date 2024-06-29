@@ -1,13 +1,19 @@
 import React from 'react';
 import TimelineStep from './TimelineStep'; // Adjust the path as necessary
-
+<span style={{ color: 'Orange' }}></span>
 const TimelineSection = () => {
   const steps = [
     {
       number: 1,
       title: 'Get on Camera',
-      description:
-        "We will produce high volumes of organic content on various social media platforms, which will contain an abundance of value for your target audience. This will help you construct a strong brand & generate compounding returns over the long run. ",
+      description: (
+        <>
+          We will produce <span style={{ color: 'Orange' }}>high volumes</span> of <span style={{ color: 'Orange' }}>organic content</span>  on
+          <span style={{ color: 'Orange' }}> various</span>   social media platforms, which will contain an <span style={{ color: 'Orange' }}>abundance of value </span>
+          for your target audience. This will help you construct a strong brand & generate <span style={{ color: 'Orange' }}>compounding returns over the long run.</span>
+        </>
+      ),
+
       icon: '📸',
     },
     {
@@ -31,7 +37,7 @@ const TimelineSection = () => {
         "We will construct high - converting landing pages with compelling, creative copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates. Tracking metrics is also included.",
       icon: '',
     },
-    
+
     // Add more steps as needed
   ];
 
