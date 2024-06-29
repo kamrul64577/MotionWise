@@ -52,7 +52,7 @@ const TimelineSection = () => {
           <div className="flex flex-col md:flex-row ">
             <div className="md:w-1/3 ">
               <h3 className="md:text-6xl text-4xl text-center font-bold mb-2 pt-20">Here's What We Do</h3>
-              <p className='text-center text-2xl'>How Our Done-For-You Service Will Transform Your Business. </p>
+              <p className='text-center text-xl md:text-2xl text-gray-400'>How Our Done-For-You Service Will Transform Your Business. </p>
             </div>
             <div className="md:w-2/3 mt-12 pl-0 md:pl-48 p-4">
               {steps.map((step, index) => (
