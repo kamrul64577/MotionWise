@@ -21,7 +21,7 @@ const TimelineStep = ({ stepNumber, title, description, icon }) => {
         <div className="md:hidden block text-left p-4">
         {/* <h1 className="text-5xl  p-4 border-none ">{icon}</h1> */}
         </div>
-        <p className="text-lg text-white">{description}</p>
+        <p className="text-xl text-white">{description}</p>
       </div>
       <div className="hidden md:block">
         {/* This div with a gray background acts as the connecting line */}
