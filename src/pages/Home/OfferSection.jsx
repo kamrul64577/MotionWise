@@ -6,7 +6,7 @@ const OfferSection = () => {
     <div className="flex flex-col items-center bg-custom-gradient text-white p-8 md:p-16">
       <div className="text-left md:text-center max-w-4xl">
         <h1 className="text-3xl md:text-4xl  mb-20 mt-6">
-          We will book you 10 - 30+ qualified appointments Or you don’t pay & we will work with you for free until we do.
+        We guarantee 10-30+ new qualified calls every month or we work for free until you get that, + (full refund guarantee)
         </h1>
         <p className="text-xl md:text-2xl mb-8">
           We generate you more leads & book you more appointments organically & through cold outreach, helping you to achieve a brand and make more money.
