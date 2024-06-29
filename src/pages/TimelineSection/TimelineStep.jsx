@@ -19,7 +19,7 @@ const TimelineStep = ({ stepNumber, title, description, icon }) => {
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-lg text-white">{description}</p>
       </div>
-      <h1 className="text-5xl p-4 border-none transform rotate-12">{icon}</h1>
+      {/* <h1 className="text-5xl p-4 border-none transform rotate-12 ">{icon}</h1> */}
     </div>
   );
 };
