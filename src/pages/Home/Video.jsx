@@ -3,7 +3,7 @@ import React from 'react'
 const Video = () => {
 
     return (
-        <div className="bg-gray-100 py-10 flex justify-center items-center bg-custom-gradient text-white">
+        <div className="bg-gray-100 py-10 flex justify-center items-center bg-custom-gradient-b  text-white">
             <div className="w-full max-w-5xl px-4">
                 <div className="relative w-full h-0 pb-[56.25%]"> {/* 16:9 aspect ratio */}
                     <iframe
