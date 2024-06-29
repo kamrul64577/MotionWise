@@ -10,16 +10,21 @@ const TimelineStep = ({ stepNumber, title, description, icon }) => {
   return (
     <div
       ref={ref}
-      className={`relative flex items-start mb-8 ${inView ? 'opacity-100' : 'opacity-0'}`}
+      className={`relative flex flex-col md:flex-row items-start mb-8 ${inView ? 'opacity-100' : 'opacity-0'}`}
     >
-      <div className="relative">
+      <div className="relative md:hidden mb-4">
+        {/* This div with a gray background acts as the connecting line */}
         <div className={`right-full transform -translate-y-1/2 w-2 h-full bg-gray-600 ${inView ? 'scale-y-100' : 'scale-y-0'}`} />
       </div>
-      <div className="flex-1 pl-8 border-l py-10 my-[-40px]">
+      <div className="flex-1 pl-8 border-l py-10 md:py-0 md:ml-8">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-lg text-white">{description}</p>
       </div>
-      {/* <h1 className="text-5xl p-4 border-none transform rotate-12 ">{icon}</h1> */}
+      <div className="hidden md:block">
+        {/* This div with a gray background acts as the connecting line */}
+        <div className={`right-full transform -translate-y-1/2 w-2 h-full bg-gray-600 ${inView ? 'scale-y-100' : 'scale-y-0'}`} />
+      </div>
+      {/* <h1 className="text-5xl p-4 border-none transform rotate-12">{icon}</h1> */}
     </div>
   );
 };

@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         // sans: ['Poppins', 'sans-serif'],
         // sans: ['Montserrat', 'sans-serif'], 
-        sans: ['Roboto', 'sans-serif'],
+        // sans: ['Roboto', 'sans-serif'],
+        sans: ['Urbanist', 'sans-serif'],
       }
     },
   },
