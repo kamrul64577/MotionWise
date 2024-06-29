@@ -4,8 +4,8 @@ import { InlineWidget } from 'react-calendly';
 
 const CalendlyWidgets = () => {
     return (
-        <div >
-            <InlineWidget url="https://calendly.com/motionwise/30min" />
+        <div className='bg-gray-800 h-screen'>
+            <InlineWidget className="h-screen" url="https://calendly.com/motionwise/30min" />
         </div>
     );
 };

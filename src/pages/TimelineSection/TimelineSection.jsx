@@ -31,6 +31,7 @@ const TimelineSection = () => {
         "We will construct high - converting landing pages with compelling, creative copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates. Tracking metrics is also included.",
       icon: '',
     },
+    
     // Add more steps as needed
   ];
 
