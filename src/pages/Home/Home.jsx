@@ -9,7 +9,7 @@ import TimelineSection from '../TimelineSection/TimelineSection';
 import Footer from '../../components/shared/Footer'
 
 const Home = () => {
-    const { offerRef, videoRef, aboutRef, testimonialRef } = useOutletContext();
+    const { offerRef, videoRef, aboutRef, howitworksRef} = useOutletContext();
     return (
         <div>
             <div ref={offerRef}>
@@ -24,7 +24,7 @@ const Home = () => {
             {/* <div ref={testimonialRef}>
                 <Testimonial />
             </div> */}
-            <div>
+            <div ref={howitworksRef}>
                 <TimelineSection />
             </div>
             <div>

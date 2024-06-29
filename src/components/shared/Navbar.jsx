@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ handleScroll, offerRef, videoRef,  testimonialRef }) => {
+const Navbar = ({ handleScroll, offerRef, videoRef,  howitworksRef }) => {
     return (
         <div className="navbar  bg-custom-gradient text-white px-4">
             <div className="navbar-start">
@@ -15,7 +15,7 @@ const Navbar = ({ handleScroll, offerRef, videoRef,  testimonialRef }) => {
                         <li><a className="text-lg" to='/'>Home</a></li>
                         <li><a className="text-lg" onClick={() => handleScroll(videoRef)}>Video</a></li>
                         {/* <li><a className="text-lg" onClick={() => handleScroll(aboutRef)}>About Me</a></li> */}
-                        <li><a className="text-lg" onClick={() => handleScroll(testimonialRef)}>Testimonials</a></li>
+                        <li><a className="text-lg" onClick={() => handleScroll(howitworksRef)}>How It Works</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-2xl">MotionWise</a>
@@ -25,7 +25,7 @@ const Navbar = ({ handleScroll, offerRef, videoRef,  testimonialRef }) => {
                     <li><Link className="text-lg px-3 py-2" to='/'>Home</Link></li>
                     <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(videoRef)}>Video</a></li>
                     {/* <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(aboutRef)}>About Me</a></li> */}
-                    <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(testimonialRef)}>Testimonials</a></li>
+                    <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(howitworksRef)}>How It Works</a></li>
                 </ul>
             </div>
             <div className="navbar-end">

@@ -7,7 +7,7 @@ const MainLayout = () => {
     const offerRef = useRef(null);
     const videoRef = useRef(null);
     const aboutRef = useRef(null);
-    const testimonialRef = useRef(null);
+    const howitworksRef = useRef(null);
 
     const handleScroll = (ref) => {
       console.log(ref.current); 
@@ -21,8 +21,8 @@ const MainLayout = () => {
 
     return (
         <div>
-            <Navbar handleScroll={handleScroll} offerRef={offerRef} videoRef={videoRef} aboutRef = {aboutRef} testimonialRef={testimonialRef} />
-            <Outlet context={{ offerRef, videoRef, aboutRef, testimonialRef }} />
+            <Navbar handleScroll={handleScroll} offerRef={offerRef} videoRef={videoRef} aboutRef = {aboutRef} howitworksRef={howitworksRef} />
+            <Outlet context={{ offerRef, videoRef, aboutRef, howitworksRef }} />
         </div>
     );
 };
