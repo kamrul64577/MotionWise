@@ -26,7 +26,7 @@ const TimelineStep = ({ stepNumber, title, description, icon }) => {
       <div className="hidden md:block">
         {/* This div with a gray background acts as the connecting line */}
         <div className={`right-full transform -translate-y-1/2 w-2 h-full bg-gray-600 ${inView ? 'scale-y-100' : 'scale-y-0'}`} />
-        <h1 className="text-5xl  p-4 border-none transform rotate-12">{icon}</h1>
+        {/* <h1 className="text-5xl  p-4 border-none transform rotate-12">{icon}</h1> */}
       </div>
      
     </div>

@@ -18,6 +18,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-custom-gradient {
+/* .bg-custom-gradient {
   background: radial-gradient(circle, rgb(12, 76, 98) 10%, black 90%);
+} */
+.bg-custom-gradient {
+  background: radial-gradient(circle, rgb(6, 60, 78) 10%, black 90%);
 }

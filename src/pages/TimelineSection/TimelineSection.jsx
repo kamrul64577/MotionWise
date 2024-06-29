@@ -6,9 +6,9 @@ const TimelineSection = () => {
     {
       number: 1,
       title: 'Build Your Brand ',
-      description:<>
-      "We will produce high volume, <span style={{ color: '#4e85de' }}> organic content </span> on multiple social media platforms. This will contain extreme value & help you build a <span style={{ color: '#4e85de' }}>strong brand</span>  which produces <span style={{ color: '#4e85de' }}></span> compounding returns over the long run."
-     </>
+      description: <>
+        "We will produce high volume, <span className='text-green-400'> organic content </span> on multiple social media platforms. This will contain extreme value & help you build a <span className='text-green-400'>strong brand</span>  which produces <span className='text-green-400'></span> compounding returns over the long run."
+      </>
       ,
 
       icon: '📸',
@@ -16,29 +16,31 @@ const TimelineSection = () => {
     {
       number: 2,
       title: 'Expand Your Reach',
-      description:<>
-       "We will fully setup, manage & track email campaigns, we’ll send lots of <span style={{ color: '#4e85de' }}>personalised emails</span>   to your desired prospects and schedule appointments. Our service includes Numerous scripts & A/Z split testing to increase conversion rates & book more calls."
+      description: <>
+        "We will fully setup, manage & track email campaigns, we’ll send lots of <span className='text-green-400'>personalised emails</span>   to your desired prospects and schedule appointments. Our service includes Numerous scripts & A/Z split testing to increase conversion rates & book more calls."
       </>,
-      
+
       icon: '📩',
     },
     {
       number: 3,
       title: 'Turn Clicks Into Clients ',
-      description:<>
-       "We will create high - converting <span style={{ color: '#4e85de' }}>landing pages  </span> with compelling copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates."
+      description: <>
+        "We will create high - converting <span className='text-green-400'>landing pages  </span> with compelling copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates."
       </>
-       ,
+      ,
       icon: '🎥',
     },
     {
       number: 4,
       title: 'On Top of That ',
-      description:
-        "We will guide you on how to create effective lead magnets & email flows to help generate more conversions easier and produce more revenue.",
+      description: <>
+        "We will guide you on how to create effective <span className='text-green-400'>lead magnets</span> & <span className='text-green-400'>email flows</span> to help generate more conversions easier and produce more revenue.",
+      </>,
+
       icon: '🎥',
     },
-    
+
 
     // Add more steps as needed
   ];
