@@ -5,7 +5,6 @@ const Video = () => {
     return (
         <div className="bg-gray-100 py-10 flex justify-center items-center bg-custom-gradient text-white">
             <div className="w-full max-w-5xl px-4">
-                <h2 className="text-3xl font-bold text-center mb-8">Our Featured Video</h2>
                 <div className="relative w-full h-0 pb-[56.25%]"> {/* 16:9 aspect ratio */}
                     <iframe
                         className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
