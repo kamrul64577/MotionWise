@@ -20,7 +20,7 @@ const TimelineStep = ({ stepNumber, title, description, icon }) => {
       </div>
       <div className="flex-1 pl-8 border-l py-10 my-[-40px]">
         {/* <h3 className="text-xl font-bold mb-2">{title}</h3> */}
-        <p className="text-lg text-gray-400">{description}</p>
+        <p className="text-lg text-white">{description}</p>
       </div>
       {/* <h1 className='text-5xl p-4'>{icon}</h1> */}
     </div>
