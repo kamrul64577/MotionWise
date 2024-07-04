@@ -22,5 +22,8 @@
   background: radial-gradient(circle, rgb(12, 76, 98) 10%, black 90%);
 } */
 .bg-custom-gradient {
-  background: radial-gradient(circle, rgb(6, 60, 78) 10%, black 90%);
+  background: radial-gradient( rgb(6, 60, 78) 10%, black 90%);
+}
+.nav-bg{
+  background-color: rgb(21, 30, 21);
 }

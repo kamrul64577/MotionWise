@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
-const Navbar = ({ handleScroll, offerRef, videoRef,  howitworksRef }) => {
+const Navbar = ({ handleScroll, offerRef, videoRef, howitworksRef }) => {
     return (
-        <div className="navbar  bg-custom-gradient text-white px-4">
+        <div className="navbar bg-custom-gradient text-white px-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,23 +12,17 @@ const Navbar = ({ handleScroll, offerRef, videoRef,  howitworksRef }) => {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a className="text-lg" to='/'>Home</a></li>
-                        {/* <li><a className="text-lg" onClick={() => handleScroll(videoRef)}>Video</a></li> */}
-                        {/* <li><a className="text-lg" onClick={() => handleScroll(aboutRef)}>About Me</a></li> */}
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-custom-gradient rounded-box w-52">
+                        <li><Link className="text-lg" to='/'>Home</Link></li>
                         <li><a className="text-lg" onClick={() => handleScroll(howitworksRef)}>How It Works</a></li>
-                        {/* <li><Link to='https://zahare-wilson.ck.page/posts/hi-guys' className="text-lg" >Free Training</Link></li> */}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-2xl">MotionWise</a>
+                <img className='w-32 h-32' src={logo} alt="logo" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><Link className="text-lg px-3 py-2" to='/'>Home</Link></li>
-                    {/* <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(videoRef)}>Video</a></li> */}
-                    {/* <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(aboutRef)}>About Me</a></li> */}
                     <li><a className="text-lg px-3 py-2" onClick={() => handleScroll(howitworksRef)}>How It Works</a></li>
-                    {/* <li><Link to='https://zahare-wilson.ck.page/posts/hi-guys' className="text-lg" >Free Training</Link></li> */}
                 </ul>
             </div>
             <div className="navbar-end">
