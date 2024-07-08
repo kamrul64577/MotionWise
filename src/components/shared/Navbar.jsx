@@ -26,7 +26,7 @@ const Navbar = ({ handleScroll, offerRef, videoRef, howitworksRef }) => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to='appt' className="btn btn-primary btn-lg px-8 py-4 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 border-none text-white font-semibold rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105">Call Now</Link>
+                <Link to='appt' className="btn btn-primary btn-lg px-8 py-4 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 border-none text-white font-semibold rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hidden md:inline-block">Call Now</Link>
             </div>
         </div>
     );
