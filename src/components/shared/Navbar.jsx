@@ -17,7 +17,7 @@ const Navbar = ({ handleScroll, offerRef, videoRef, howitworksRef }) => {
                         <li><a className="text-lg" onClick={() => handleScroll(howitworksRef)}>How It Works</a></li>
                     </ul>
                 </div>
-                <img className='w-32 h-32' src={logo} alt="logo" />
+                <img className='w-42 h-16' src={logo} alt="logo" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
