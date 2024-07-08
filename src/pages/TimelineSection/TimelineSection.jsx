@@ -22,15 +22,15 @@ const TimelineSection = () => {
 
       icon: '📩',
     },
-    {
-      number: 3,
-      title: 'Turn Clicks Into Clients ',
-      description: <>
-        We will create high - converting <span className='text-green-400'>landing pages  </span> with compelling copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates.
-      </>
-      ,
-      icon: '🎥',
-    },
+    // {
+    //   number: 3,
+    //   title: 'Turn Clicks Into Clients ',
+    //   description: <>
+    //     We will create high - converting <span className='text-green-400'>landing pages  </span> with compelling copy, fast loading speeds & visual appeal whilst making sure they are mobile friendly & offer A/B split testing to ensure high conversion rates.
+    //   </>
+    //   ,
+    //   icon: '🎥',
+    // },
     {
       number: 4,
       title: 'On Top of That ',

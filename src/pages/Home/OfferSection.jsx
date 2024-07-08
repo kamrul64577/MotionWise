@@ -16,7 +16,7 @@ const OfferSection = () => {
         </p>
         <Link to='appt'>
           <button className="btn btn-primary btn-lg px-8 py-4 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 border-none text-white font-semibold rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105">
-            Book Your Appointment
+            Schedule a call
           </button>
         </Link>
       </div>
