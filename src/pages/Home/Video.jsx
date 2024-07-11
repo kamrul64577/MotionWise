@@ -13,8 +13,10 @@ const Video = () => {
                                 allow="autoplay; encrypted-media"
                                 frameBorder="0"
                                 allowFullScreen
+                                muted  // Try adding muted attribute
                                 style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}
                             ></iframe>
+
                         </div>
                     </div>
                     <div className="bottom-gradient"></div>
