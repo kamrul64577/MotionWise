@@ -7,7 +7,7 @@ const TimelineSection = () => {
       number: 1,
       title: 'Build Your Brand ',
       description: <>
-        We will produce high volume, <span className='text-green-400'> organic content </span> on multiple social media platforms. This will contain extreme value & help you build a <span className='text-green-400'>strong brand</span>  which produces <span className='text-green-400'></span> compounding returns over the long run.
+        At Imperium Scale we produce high volume, <span className='text-green-400'> organic content </span> on multiple social media platforms. This will contain extreme value & help you build a <span className='text-green-400'>strong brand</span>  which produces <span className='text-green-400'></span> compounding returns over the long run.
       </>
       ,
 
@@ -17,7 +17,7 @@ const TimelineSection = () => {
       number: 2,
       title: 'Expand Your Reach',
       description: <>
-        We will fully setup, manage & track email campaigns, we’ll send lots of <span className='text-green-400'>personalised emails</span>   to your desired prospects and schedule appointments. Our service includes Numerous scripts & A/Z split testing to increase conversion rates & book more calls.
+        At Imperium Scale we fully setup, manage & track email campaigns, we’ll send lots of <span className='text-green-400'>personalised emails</span>   to your desired prospects and schedule appointments. Our service includes Numerous scripts & A/Z split testing to increase conversion rates & book more calls.
       </>,
 
       icon: '📩',
@@ -35,7 +35,7 @@ const TimelineSection = () => {
       number: 4,
       title: 'On Top of That ',
       description: <>
-        We will guide you on how to create effective <span className='text-green-400'>lead magnets</span> & <span className='text-green-400'>email flows</span> to help generate more conversions easier and produce more revenue.
+        At Imperium Scale we guide you on how to create effective <span className='text-green-400'>lead magnets</span> & <span className='text-green-400'>email flows</span> to help generate more conversions easier and produce more revenue.
       </>,
 
       icon: '🎥',
@@ -51,6 +51,7 @@ const TimelineSection = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row ">
             <div className="md:w-1/3 ">
+              <p className='text-center text-xl md:text-xl text-gray-400 pt-20'>I'm Muhseen Ali, founder of Imperium Scale</p>
               <h3 className="md:text-6xl text-4xl text-center font-bold mb-2 pt-20">Here's What We Do</h3>
               <p className='text-center text-xl md:text-2xl text-gray-400'>How Our Done-For-You Service Will Transform Your Business. </p>
             </div>
