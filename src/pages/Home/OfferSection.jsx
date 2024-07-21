@@ -14,7 +14,7 @@ const OfferSection = () => {
         <p className="text-lg md:text-2xl mb-4">
           We generate more leads and book additional calls through our proven system, making you more money.
         </p>
-        <Link to='appt'>
+        <Link to='https://calendly.com/imperiumscale/consultation'>
           <button className="btn btn-primary btn-lg px-8 py-4 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 border-none text-white font-semibold rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105">
             Schedule a call
           </button>
